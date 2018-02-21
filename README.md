@@ -1,3 +1,3 @@
-# FRONTEND VOOR DESIGNERS
+# Frondend voor Designers
 
-[Opdracht 1](https://www.google.com)
+[Opdracht 1](https://annedegroot.github.io/fevd/opdracht1/)
