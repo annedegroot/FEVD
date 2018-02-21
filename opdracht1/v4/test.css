@@ -1,0 +1,180 @@
+
+
+section {
+
+   display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+
+
+}
+
+
+img {
+width: 32em;
+margin-left: 2em;
+    margin-bottom: 2em;
+   align-self: flex-start;
+
+}
+
+.colors {
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 5em;
+
+
+}
+
+li {
+    border-radius: 50px;
+    display: inline-block;
+    height: 4em;
+    width: 4em;
+    margin-right: 2em;
+    transition-duration: .2s;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+
+li:hover {
+            transform: scale(1.2);
+            box-shadow: 0 10px 10px rgba(0, 0, 0, .2);
+}
+
+.purple-images {
+    display: none;
+}
+.green-images {
+    display: none;
+}
+.red-images {
+    display: none;
+}
+.blue-images {
+    display: none;
+}
+.orange-images {
+    display: none;
+}
+
+
+.yellow-images  {
+    display: none;
+}
+
+
+.all-images.paarseknop {
+    display: none;
+}
+
+.all-images.groeneknop {
+    display: none;
+}
+
+.all-images.rodeknop {
+    display: none;
+}
+
+.all-images.oranjeknop {
+    display: none;
+}
+
+.all-images.geleknop {
+    display: none;
+}
+
+
+
+
+
+.all-images.blauweknop {
+    display: none;
+}
+.blue-images.paarseknop {
+    display: none;
+}
+.purple-images.paarseknop {
+    display: block;
+}
+
+
+
+
+
+.purple-images.groeneknop {
+    display: none;
+}
+.green-images.groeneknop {
+    display: block;
+}
+.blue-images.groeneknop {
+    display: none;
+}
+.green-images.rodeknop {
+    display: none;
+}
+.red-images.rodeknop {
+    display: block;
+}
+
+.purple-images.rodeknop {
+    display: none;
+}
+.blue-images.rodeknop {
+    display: none;
+}
+
+
+
+
+.red-images.oranjeknop {
+    display: none;
+}
+
+.orange-images.oranjeknop {
+    display: block;
+}
+
+
+.blue-images.oranjeknop {
+    display: none;
+}
+
+.purple-images.oranjeknop {
+    display: none;
+}
+
+.green-images.oranjeknop {
+    display: none;
+}
+
+
+
+
+
+.orange-images.geleknop {
+    display: none;
+}
+
+.yellow-images.geleknop {
+    display: block;
+}
+
+.purple-images.geleknop {
+    display: none;
+}
+
+.green-images.geleknop {
+    display: none;
+}
+
+.red-images.geleknop {
+    display: none;
+}
+
+.blue-images.geleknop {
+    display: none;
+}

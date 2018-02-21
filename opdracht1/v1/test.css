@@ -1,0 +1,77 @@
+body {
+    box-sizing: border-box;
+}
+
+.colors {
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+li {
+    border-radius: 50px;
+    display: inline-block;
+    height: 4em;
+    width: 4em;
+    margin-right: 2em;
+    transition-duration: .2s;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+
+li:hover {
+    transform: scale(1.2);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .2);
+}
+
+
+.all-images {
+
+    max-width: 1200px;
+    margin: 50px auto;
+
+}
+
+.grid-item {
+
+   max-width: 50%;
+        float: left;
+        padding: 10px;
+        transition: .3s ease-in-out;
+        display: flex;
+
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex: 0 1 auto;
+        align-items: center;
+        position: relative;
+        cursor: pointer;
+}
+img {
+    width: 30em;
+}
+
+
+.purple-images.blauweknop {
+    display: none;
+}
+
+.blue-images.blauweknop {
+    display: block;
+}
+
+.purple-images.paarseknop {
+    display: block;
+}
+
+.blue-images.paarseknop {
+    display: none;
+}
+
+.green-images.groeneknop {
+    display: block;
+}
+
+.purple-images.groeneknop {
+    display: none;
+}
