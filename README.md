@@ -3,7 +3,9 @@
 Voor Frontend voor Designer maak ik een drietal opdrachten. 
 
 De eerste opdracht is een zoekfunctie waarbij er gefilterd kan worden op kleur. 
+
 [Opdracht 1](https://annedegroot.github.io/fevd/opdracht1/)
 
 De tweede opdracht is een image slider waarbij er gebruik is gemaakt van 2 events, namelijk click en ...
+
 [Opdracht 2](https://annedegroot.github.io/fevd/opdracht2/)
