@@ -1,8 +1,4 @@
-
-
-
-
-   function highlight2(elem) {
+function highlight2(elem) {
     var li = document.getElementsByTagName('li')
     for (i = 0; i < li.length; i++) {
         li[i].classList.remove('active2');
@@ -23,7 +19,7 @@ var afb3 = document.querySelector('#img3');
 
 var afbeeldingenslider = document.querySelector('.images');
 
-var slide2 = function(){
+var slide2 = function () {
     afb1.classList.toggle('slide2');
     afb2.classList.toggle('slide2');
     afb3.classList.toggle('slide2');
@@ -32,7 +28,7 @@ var slide2 = function(){
 
 knop2.addEventListener('click', slide2);
 
-var slide3 = function(){
+var slide3 = function () {
     afb1.classList.toggle('slide3');
     afb2.classList.toggle('slide3');
     afb3.classList.toggle('slide3');
@@ -43,7 +39,7 @@ knop3.addEventListener('click', slide3);
 
 
 
-var slide1 = function(){
+var slide1 = function () {
     afb1.classList.toggle('slide1');
     afb2.classList.toggle('slide1');
     afb3.classList.toggle('slide1');
@@ -51,5 +47,30 @@ var slide1 = function(){
 }
 
 knop1.addEventListener('click', slide1);
+
+
+
+
+var keypress1 = function () {
+    if (event.keyCode == 39) {
+        afb1.classList.toggle('keypress1');
+        afb2.classList.toggle('keypress1');
+        afb3.classList.toggle('keypress1');
+    }
+}
+
+document.addEventListener('keydown', keypress1);
+
+
+var keypress2 = function () {
+    if (event.keyCode == 39) {
+        afb1.classList.toggle('keypress2');
+        afb2.classList.toggle('keypress2');
+        afb3.classList.toggle('keypress2');
+    }
+}
+
+document.addEventListener('keydown', keypress2);
+
 
 
