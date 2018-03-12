@@ -18,5 +18,6 @@ transition effect. De knoppen zijn klikbaar. Ik wil later er nog voor zorgen dat
 
 [Versie 3](https://annedegroot.github.io/fevd/opdracht3/v3/)
 
-
+In versie 3 heb ik de keydown eventlistener toegevoegd. Je zou nu moeten klikken door de slider, maar hij gaat van foto 1 heel 
+snel naar foto 2 en 3. 
 
