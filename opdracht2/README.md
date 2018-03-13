@@ -16,7 +16,7 @@ Ik had in eerste instantie de afbeeldingen die nog niet zichtbaar zijn in displa
 transition effect. De knoppen zijn klikbaar. Ik wil later er nog voor zorgen dat je niet horizontaal kan scrollen op de pagina.
 
 
-[Versie 3](https://annedegroot.github.io/fevd/opdracht3/v3/)
+[Versie 3](https://annedegroot.github.io/fevd/opdracht2/v3/)
 
 In versie 3 heb ik de keydown eventlistener toegevoegd. Je zou nu moeten klikken door de slider, maar hij gaat van foto 1 heel 
 snel naar foto 2 en 3. 
