@@ -21,3 +21,9 @@ transition effect. De knoppen zijn klikbaar. Ik wil later er nog voor zorgen dat
 In versie 3 heb ik de keydown eventlistener toegevoegd. Je zou nu moeten klikken door de slider, maar hij gaat van foto 1 heel 
 snel naar foto 2 en 3. 
 
+
+[Versie 4](https://annedegroot.github.io/fevd/opdracht2/v4/)
+
+In versie 4 heb ik javascript code verbeterd en een counter aangebracht. Heb nu een .add en .remove toegevoegd ipv de .toggle. Hierdoor kan je op alle manieren door de caroussel heen. 
+De Caroussel werkt nu op zowel click als met keypress.
+
