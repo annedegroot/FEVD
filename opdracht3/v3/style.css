@@ -9,7 +9,7 @@ header {
     position: fixed;
     width: 100%;
     top: 0;
-
+    padding: 1em;
     padding-top: 2em;
     height: 3em;
     margin-bottom: 1em;
@@ -71,9 +71,11 @@ a {
     color: #f7941e;
     text-decoration: none;
     font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
 
 }
-
 
 
 
@@ -84,7 +86,12 @@ article {
     padding-bottom: 5em;
 }
 
-article.test {
-    background-color: red;
+div {
+    display: none;
 
 }
+
+div.showdiv {
+    display: block;
+}
+

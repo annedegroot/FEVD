@@ -27,31 +27,53 @@ function showMovies(jsonObj) {
         console.log("plot: " + allefilms[i].simple_plot);
         console.log("img: " + allefilms[i].cover);
 
+
         var myArticle = document.createElement('article');
 
         var titel = document.createElement('h1');
         var cover = document.createElement('img');
         var shorttext = document.createElement('p');
 
+        var button = document.createElement('a');
+
+        var myDiv = document.createElement('div');
+
+        var plot = document.createElement('p');
 
 
+        button.textContent = 'Lees meer..';
         cover.src = allefilms[i].cover;
         titel.textContent = allefilms[i].title;
         shorttext.textContent = allefilms[i].simple_plot;
-
+        plot.textContent = allefilms[i].plot;
 
         myArticle.appendChild(cover);
         myArticle.appendChild(titel);
         myArticle.appendChild(shorttext);
+        myArticle.appendChild(button);
 
-
+        myDiv.appendChild(plot);
 
 
         section.appendChild(myArticle);
+        myArticle.appendChild(myDiv);
+
+        button.addEventListener('click', function () {
+        console.log('hallooo');
+
+});
+
+
+
+
+
+
+
+
+        }
+
+
 
 
     }
-
-}
-
 
