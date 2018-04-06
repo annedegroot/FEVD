@@ -7,19 +7,9 @@ var afb2 = document.querySelector('#img2');
 var afb3 = document.querySelector('#img3');
 
 
-var afbeeldingenslider = document.querySelector('.images');
-
 var right = document.querySelector('.right-button');
 var left = document.querySelector('.left-button');
-/*
-function highlight2(elem) {
-    var li = document.getElementsByTagName('li')
-    for (i = 0; i < li.length; i++) {
-        li[i].classList.remove('active2');
-    }
-    elem.classList.add('active2');
-}
-*/
+
 
 var counter = 1;
 

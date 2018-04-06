@@ -64,23 +64,6 @@ display: inline-block;
 
 
 
-#img1.keypress1 {
-    margin-left: -105em;
-
-
-}
-#img2.keypress1 {
-    margin-left: 0;
-    display: block;
-    z-index: -1;
-}
-#img3.keypress1 {
-    margin-left: 105em;
-    display: block;
-    z-index: -1;
-}
-
-
 
 
 
@@ -94,23 +77,6 @@ display: inline-block;
     z-index: -1;
 }
 #img3.slide3 {
-    margin-left: 0;
-    display: block;
-    z-index: -1;
-}
-
-
-
-#img1.keypress2 {
-    margin-left: -210em;
-
-}
-#img2.keypress2 {
-    margin-left: -105em;
-    display: block;
-    z-index: -1;
-}
-#img3.keypress2 {
     margin-left: 0;
     display: block;
     z-index: -1;
@@ -137,7 +103,7 @@ display: inline-block;
 .left-button {
     max-width: 1em;
     cursor: pointer;
-    margin-left: 1em;
+    margin-left: 2em;
 
 }
 
@@ -145,7 +111,7 @@ display: inline-block;
     position: absolute;
     max-width: 1em;
     cursor: pointer;
-    right: 1em;
+    right: 2em;
 
 }
 
