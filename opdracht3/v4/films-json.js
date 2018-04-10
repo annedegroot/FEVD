@@ -74,25 +74,28 @@ function showMovies(jsonObj) {
 
             console.log(myDiv);
 
-});
+        });
 
-                button2.addEventListener('click', function () {
+        button2.addEventListener('click', function () {
             myArticle.classList.toggle('showdiv');
             shorttext.classList.toggle('showdiv');
             myDiv.classList.toggle('showdiv');
             button2.classList.toggle('hidediv');
             button.classList.toggle('showdiv');
 
+        });
+
+
+var article = document.querySelector('article');
+var swipe = document.querySelector('.swipe');
+
+article.addEventListener('click', function () {
+    article.classList.toggle('left');
+    console.log('jeej');
+
 });
-
-
-        }
-
-
-
 
 
     }
 
-
-
+}

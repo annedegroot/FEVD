@@ -1,7 +1,11 @@
 body {
     background-color: #0e0e0c;
     padding: 1em;
+
 }
+
+
+
 
 header {
     position: fixed;
@@ -51,9 +55,11 @@ section {
     margin-right: auto;
     margin-top: 6em;
     z-index: -2;
+
+
 }
 
-a {
+.import-movies a {
     color: #f7941e;
     text-decoration: none;
     font-family: 'Roboto Condensed', sans-serif;
@@ -66,41 +72,83 @@ a {
 
 }
 
-article {
+.import-movies article {
     height: 10em;
     margin-bottom: 2em;
     border-bottom: 2px solid #313439;
     padding-bottom: 5em;
 }
 
-div {
+.import-movies div {
     transition: 0.2s all ease-out;
     width: 27em;
     opacity: 0;
 }
 
-div.showdiv {
+.import-movies div.showdiv {
     opacity: 1;
 
     transition: 0.2s all ease-out;
 }
 
-article.showdiv {
+.import-movies article.showdiv {
     padding-bottom:  7em;
 }
 
-p.showdiv {
+.import-movies p.showdiv {
     opacity: 0;
     margin-top: -5em;
     transition: 0.2s all ease-out;
 }
 
-a.hidediv {
+.import-movies a.hidediv {
     display: none;
     transition: 0.2s all ease-out;
 }
 
-a.showdiv {
+.import-movies a.showdiv {
     display: block;
     margin-left: 11em;
+}
+
+
+
+
+.swipe {
+    background-color: #f7941e;
+    height: 17.2em;
+    width: 6em;
+    position: relative;
+    top: -19.2em;
+    left: 29em;
+
+}
+
+.swipe img {
+    max-width: 4em;
+    margin-left: 1em;
+    margin-top: 2.5em;
+
+
+
+}
+
+.swipe p {
+    font-weight: 500;
+    font-size: 20px;
+    color: #0e0e0c;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 2.1em;
+    margin-top: 3.1em;
+
+
+}
+
+.swipe.left {
+    left: 23em;
+}
+
+article.left {
+    left: -6em;
 }
