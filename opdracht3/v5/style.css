@@ -85,7 +85,7 @@ section {
 .import-movies div.showdiv {
     display: block;
     margin-top: -3.55em;
-    width: 25em;
+    width: 90vw;
 
     transition: 0.2s all ease-out;
 }
