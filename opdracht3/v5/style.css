@@ -36,12 +36,13 @@ p {
     font-weight: 200;
     opacity: 1;
     transition: 0.2s all ease-out;
+    min-height: 7em;
 }
 
 img {
     display: inline-block;
     margin-right: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     width: 9em;
     float: left;
 }
@@ -61,7 +62,7 @@ section {
     text-decoration: none;
     font-family: 'Roboto Condensed', sans-serif;
     padding-top: 1em;
-    padding-bottom: 1em;
+
     z-index: 2;
     margin-top: -1em;
 
@@ -69,6 +70,7 @@ section {
 }
 
 .import-movies article {
+    padding-bottom: 2em;
 
     margin-bottom: 2em;
     border-bottom: 2px solid #313439;
@@ -77,11 +79,13 @@ section {
 .import-movies div {
     transition: 0.2s all ease-out;
     width: 27em;
-    opacity: 0;
+    display: none;
 }
 
 .import-movies div.showdiv {
-    opacity: 1;
+    display: block;
+    margin-top: -3.55em;
+    width: 25em;
 
     transition: 0.2s all ease-out;
 }
@@ -106,7 +110,6 @@ section {
 
 .import-movies a.showdiv {
     display: block;
-    margin-left: 11em;
 }
 
 

@@ -2,7 +2,7 @@ var section = document.querySelector('.import-movies');
 
 var header = document.querySelector('header');
 
-var requestURL = 'http://dennistel.nl/movies';
+var requestURL = 'movies.json';
 
 var request = new XMLHttpRequest();
 
